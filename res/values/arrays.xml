@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <array name="banner_icons">
+        <item>@mipmap/banner_en</item>
+        <item>@mipmap/banner1_en</item>
+        <item>@mipmap/banner2_en</item>
+    </array>
+
     <array name="instruction_icons">
         <item>@mipmap/ic_item1</item>
         <item>@mipmap/ic_item2</item>
@@ -11,25 +18,25 @@
         <item>@mipmap/ic_item8</item>
     </array>
     <string-array name="instruction_labels">
-        <item >"快速上手"</item>
-        <item >"精彩美拍"</item>
-        <item >"智享生活"</item>
-        <item >"轻松办公"</item>
-        <item >"快乐出行"</item>
-        <item >"安全护航"</item>
-        <item >"个性管理"</item>
-        <item >"更多服务"</item>
+        <item >"Get started quickly"</item>
+        <item >"Wonderful beauty Shoot"</item>
+        <item >"Enjoy life"</item>
+        <item >"Easy Office"</item>
+        <item >"Happy Travel"</item>
+        <item >"Safety Escort"</item>
+        <item >"Personality Management"</item>
+        <item >"More services"</item>
     </string-array>
 
     <string-array name="instruction_desc">
-        <item >"系统导航，截屏，快捷操作"</item>
-        <item >"相机，图库"</item>
-        <item >"语音助手，识物，识屏"</item>
-        <item >"文件互传，手机投屏，社交"</item>
-        <item >"驾驶，国际漫游"</item>
-        <item >"隐私，备份，支付"</item>
-        <item >"设置，清理加速，骚扰拦截"</item>
-        <item >"用户手册，热门专题"</item>
+        <item >"System navigation, screenshot, quick operation "</item>
+        <item > "camera, gallery "</item>
+        <item > "Voice assistant, knowledge, screen "</item>
+        <item > "File mutual transmission, mobile phone screen, social "</item>
+        <item > "Driving, international roaming "</item>
+        <item > "Privacy, backup, payment "</item>
+        <item > "Settings, cleanup acceleration, harassment interception "</item>
+        <item > "User manual, Hot topics "</item>
     </string-array>
     <string-array name="instruction_num">
         <item >"6"</item>

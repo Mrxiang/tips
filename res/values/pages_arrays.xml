@@ -22,21 +22,21 @@
         <item>@mipmap/ic_page1_icon6</item>
     </array>
     <string-array name="pages_1_labels">
-        <item >"调节字体大小"</item>
-        <item >"调节手机音量"</item>
-        <item >"音量键加开关机键截屏"</item>
-        <item >"智能体感"</item>
-        <item >"快速查找应用"</item>
-        <item >"在应用市场发现精品应用"</item>
+        <item >"Adjust font size"</item>
+        <item >"Adjust phone volume"</item>
+        <item >"Volume key plus switch machine key screenshot"</item>
+        <item >"Intelligent Body Sense"</item>
+        <item >"Quickly find apps"</item>
+        <item >"Discover boutique applications in the application market"</item>
     </string-array>
 
     <string-array name="pages_1_desc">
-        <item >"打开设置，点击显示->字体与显示大小，拖动控制条调节显示效果"</item>
-        <item >"按手机音量键打开声音调节滑动条，您可以调节视频，音乐音量,调节通话音量,切换来电提醒方式，来电铃声,闹钟铃声音量等音量设置"</item>
-        <item >"同时按下音量下键加开关机键，截取当前屏幕快照，截屏后可在图库中查看截取的图片."</item>
-        <item >"设置->手势->智能体感中设置 手势识别，息屏状态在屏幕画对应的手势快速打开应用".</item>
-        <item >"在主屏幕中搜索框输入想查找的应用名称，即可快速找到。除应用外还可以搜索设置项，联系人等。"</item>
-        <item >"更多发现，更多体验，打开google 应用市场，畅快体验精品应用。"</item>
+        <item > "Open settings, click to display-> Font and display size, drag the control bar to adjust the display effect. "</item>
+        <item > "Press the phone volume key to turn on the sound adjustment slider, you can adjust the video, music volume, adjust the call volume, switch call reminder mode, call ringtone, alarm clock volume and other volume settings. "</item>
+        <item > "At the same time press the volume under the key to add the switch key, intercept the current screenshot, after the screenshot can be viewed in the gallery to view the intercepted picture. "</item>
+        <item > "Set the-> Gesture-> Smart body sense to set gesture recognition, the coupon state in the screen to draw the corresponding gestures to quickly open the app ".</item>
+        <item > "Search the box in the home screen to enter the name of the app you want to find, you can quickly find." In addition to apps, you can also search for settings items, contacts, and so on. "</item>
+        <item > "Discover more, experience more, open the Google App market and experience boutique apps."</item>
     </string-array>
 
     <array name="pages_2_icons">
@@ -46,17 +46,17 @@
         <item>@mipmap/ic_page2_icon4</item>
     </array>
     <string-array name="pages_2_labels">
-        <item >"虚化背景，突显主题"</item>
-        <item >"轻松拍摄绚丽夜景"</item>
-        <item >"智慧相机，一键拍出好照片"</item>
-        <item >"云图库，多设备共享"</item>
+        <item > "Blur the background, highlight the theme "</item>
+        <item >"Easily shoot gorgeous night scenes"</item>
+        <item > "Smart camera, take a good picture with one click "</item>
+        <item > "Cloud Map library, multi-device sharing "</item>
     </string-array>
 
     <string-array name="pages_2_desc">
-        <item >"打开相机，点击大光圈，轻触屏幕选择对焦主题"</item>
-        <item >"突破弱光和黑暗的瓶颈，提升亮度和色彩，完美呈现画面细节"</item>
-        <item >"打开相机，在拍照模式下，相机会根据您所拍摄的场景和对象，自动选取最合适的拍摄模式，助您轻松拍出好照片."</item>
-        <item >"登录在同一google账号的所有设备上，可以查看同步到云图库的照片和视频，不用担心照片和视频占用设备空间和丢失. "</item>
+        <item > "Turn on the camera, click on the big aperture, tap the screen to select the focus theme "</item>
+        <item > "Break through the weak light and dark bottleneck, enhance brightness and color, perfect display of screen details "</item>
+        <item > "Turn on the camera, in photo mode, the camera will automatically select the most appropriate shooting mode based on the scene and object you are shooting, so that you can easily take good photos. "</item>
+        <item > "Sign in to all devices on the same Google account to see photos and videos synced to the cloud library without worrying about photos and videos taking up device space and losing them." </item>
     </string-array>
 
     <array name="pages_3_icons">
@@ -64,13 +64,13 @@
         <item>@mipmap/ic_page3_icon2</item>
     </array>
     <string-array name="pages_3_labels">
-        <item >"日历，让相约更贴心"</item>
-        <item >"让手机变身WLAN热点"</item>
+        <item > "Calendar, make the meet more intimate "</item>
+        <item >"Turn your phone into a Wi-Fi hotspot"</item>
     </string-array>
 
     <string-array name="pages_3_desc">
-        <item >"打开日历，设置日程的时间，地点，通知等不用担心错过通知，贴心又便捷."</item>
-        <item >"不方便告知家用网络密码，又想将网络共享给他人？通过网络热点轻松解决。打开设置，点击 无线和网络->移动网络共享，开启网络热点。"</item>
+        <item > "Open the calendar, set the schedule time, place, notice, etc. don't worry about missing the notice, intimate and convenient. "</item>
+        <item > "Inconvenient to tell your home network password, and want to share the network with others?" Easily resolved through network hotspots. Open settings, click Wireless and Network-> Mobile network sharing, open the network hotspot. "</item>
     </string-array>
 
     <array name="pages_4_icons">
@@ -78,12 +78,12 @@
         <item>@drawable/ic_launcher_foreground</item>
     </array>
     <string-array name="pages_4_labels">
-        <item >"手机无线投大屏"</item>
+        <item >"Mobile Wireless Large screen"</item>
         <!--<item >"快速记录灵感"</item>-->
     </string-array>
 
     <string-array name="pages_4_desc">
-        <item >"不用连线，将手机屏幕投到电视或投影仪，无论办公演示，还是玩游戏看电影，带您畅享大屏体验。"</item>
+            <item > "Don't connect, put your phone screen on a TV or projector, whether it's an office demo, or play a game to watch a movie, and take you on a big screen experience." </item>
         <!--<item >"打开备忘录，随时随地记录您的重要事项 输入记录内容，点击创建笔记或创建待办。"</item>-->
     </string-array>
 
@@ -92,11 +92,11 @@
         <item>@mipmap/ic_page5_icon1</item>
     </array>
     <string-array name="pages_5_labels">
-        <item >"掌上地图，全球导航"</item>
+        <item > "Handheld map, global navigation "</item>
     </string-array>
 
     <string-array name="pages_5_desc">
-        <item >"打开google地图，全球旅行，全球导航.让出行更美好。"</item>
+        <item > "Open Google Maps, global travel, global navigation. Make travel better. "</item>
     </string-array>
 
     <array name="pages_6_icons">
@@ -104,13 +104,13 @@
         <item>@mipmap/ic_page6_icon2</item>
     </array>
     <string-array name="pages_6_labels">
-        <item >"人脸识别，刷脸解锁"</item>
-        <item >"云空间，安全存储你的数据"</item>
+        <item > "Face recognition, brush face unlock "</item>
+        <item > "Cloud space, securely store your data "</item>
     </string-array>
 
     <string-array name="pages_6_desc">
-        <item >"打开设置，点击安全和隐私>人脸解锁，按照屏幕提示录入面部数据.2 录入成功后，拿起手机对准楼面部，屏幕会自动点亮并识别。您只需滑动屏幕即可解锁"</item>
-        <item >"还在担心照片丢失无法找回？ 打开设置，登录google帐号，点击云空间并开启云备份等功能，整机数据即可进行自动备份，换机轻松恢复，云端安全存储，从此数据更放心。"</item>
+        <item > "Open settings, click Security and Privacy > Face unlock, follow the on-screen prompts to enter facial data. 2 After the entry is successful, pick up the phone to point to the face of the building, the screen will automatically light up and identify. You can unlock it by simply sliding the screen  "</item>
+        <item > "Still worried about the loss of photos can not be recovered?" Open settings, sign in to Google Account, click on cloud Space and turn on cloud backup and other functions, the whole machine data can be automatically backed up, machine change easy recovery, cloud security storage, from this data more assured. "</item>
     </string-array>
 
     <array name="pages_7_icons">
@@ -120,27 +120,27 @@
         <item>@mipmap/ic_page7_icon4</item>
     </array>
     <string-array name="pages_7_labels">
-        <item >"管理手机使用时间"</item>
-        <item >"夜间模式，用眼更舒适"</item>
-        <item >"手机朗读屏幕，信息无障碍"</item>
-        <item >"拦截骚扰电话或垃圾短信"</item>
+        <item >"Manage Phone usage times"</item>
+        <item > "Night mode, more comfortable with eyes "</item>
+        <item > "The phone reads aloud the screen, the information is barrier-free "</item>
+        <item >"Intercept nuisance calls or spam messages"</item>
     </string-array>
 
     <string-array name="pages_7_desc">
-        <item >"了解您的手机和应用的使用情况，合理安排屏幕时间，健康使用手机。"</item>
-        <item >"夜晚光线较暗、长时间看视频或阅读时，开启护眼模式，缓解用眼疲劳。"</item>
-        <item >"您也可以通过打开设置，点击 无障碍   ，打开 文字转语音输出 开关来开启读屏功能。"</item>
-        <item >"打开拨号，点击 > 来电屏蔽，选择您想拦截的电话或短信类型，即可有效避免骚扰电话或垃圾短信。"</item>
+        <item > "Understand the use of your phone and apps, arrange screen time, and use your phone healthily." "</item>
+        <item > "When the light is dark at night, watch the video or read for a long time, turn on eye care mode to relieve eye fatigue." "</item>
+        <item > "You can also turn on the read-screen function by opening the settings, clicking Accessibility, and turning on the text-to-speech output switch. "</item>
+        <item > "Turn on dialing, click > call block, select the type of phone or sms you want to intercept, you can effectively avoid harassing phone calls or spam messages." "</item>
     </string-array>
 
     <array name="pages_8_icons">
         <item>@mipmap/ic_page8_icon1</item>
     </array>
     <string-array name="pages_8_labels">
-        <item >"用户手册"</item>
+        <item >"User manual"</item>
     </string-array>
 
     <string-array name="pages_8_desc">
-        <item >"想获得更详细的手机功能介绍和操作指导?用户手册一应俱全."</item>
+        <item > "Want to get more detailed introduction and operation instructions for mobile phone features? User manuals are readily available. "</item>
     </string-array>
 </resources>

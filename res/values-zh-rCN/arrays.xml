@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <array name="banner_icons">
+        <item>@mipmap/banner</item>
+        <item>@mipmap/banner1</item>
+        <item>@mipmap/banner2</item>
+    </array>
+
     <string-array name="instruction_labels">
         <item >"快速上手"</item>
         <item >"精彩美拍"</item>

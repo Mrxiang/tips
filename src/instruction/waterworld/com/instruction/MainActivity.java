@@ -2,6 +2,7 @@ package instruction.waterworld.com.instruction;
 
 //import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
@@ -25,13 +26,15 @@ import java.util.TimerTask;
 public class MainActivity extends Activity implements ViewSwitcher.ViewFactory{
 
     private static final String TAG = "Instruction";
-    private ListView mListView;
+//    private ListView mListView;
+    private ScrollListView  mListView;
     private InstructionAdapter  mAdapter;
     private List<Bean> mDatas;
 
-    private ImageSwitcher mImageSwitcher;
-    private int  index =0;
-    private static final int[] imagelist = {R.mipmap.banner, R.mipmap.banner1, R.mipmap.banner2};
+    private ImageSwitcher   mImageSwitcher;
+    private TypedArray      bannerArray;
+    private int             bannerLength;
+    private int             index ;
     private  Handler handler;
     private  Timer timer;
     private  TimerTask timerTask;
@@ -48,9 +51,13 @@ public class MainActivity extends Activity implements ViewSwitcher.ViewFactory{
     }
 
     private void initImageSwitcher( ){
+        bannerArray         = getResources().obtainTypedArray( R.array.banner_icons );
+        bannerLength        = bannerArray.length();
+        index               = 0;
+        Log.d(TAG, "initImageSwitcher: "+bannerLength);
         mImageSwitcher = findViewById( R.id.image_switcher );
         mImageSwitcher.setFactory(this);
-        mImageSwitcher.setImageResource(imagelist[index]);
+        mImageSwitcher.setImageResource(bannerArray.getResourceId(index, 0) );
         mImageSwitcher.setOnTouchListener(new View.OnTouchListener() {
             float downX = 0,upX =0;
             @Override
@@ -68,15 +75,15 @@ public class MainActivity extends Activity implements ViewSwitcher.ViewFactory{
                         if( (upX - downX)> 20){
                             index --;
                             if( index == -1){
-                                index =2;
+                                index = bannerLength-1;
                             }
-                            mImageSwitcher.setImageResource( imagelist[index]);
+                            mImageSwitcher.setImageResource( bannerArray.getResourceId(index, 0));
                         }else if( (downX-upX) > 20){
                             index ++;
-                            if( index == 3 ){
+                            if( index == bannerLength ){
                                 index = 0;
                             }
-                            mImageSwitcher.setImageResource( imagelist[index]);
+                            mImageSwitcher.setImageResource( bannerArray.getResourceId(index, 0));
                         }
                         break;
                     case MotionEvent.ACTION_MOVE:
@@ -92,7 +99,7 @@ public class MainActivity extends Activity implements ViewSwitcher.ViewFactory{
     }
     //方法；初始化Data
      private void initListView() {
-         mListView = findViewById( R.id.list_instruction );
+         mListView = (ScrollListView)findViewById( R.id.list_instruction );
 
          //为数据绑定适配器
          mAdapter = new InstructionAdapter(this);
@@ -124,10 +131,11 @@ public class MainActivity extends Activity implements ViewSwitcher.ViewFactory{
                 if (msg.what == 1){
                     //do something
                     index++;
-                    if( index >2 ){
+                    if( index > bannerLength-1 ){
                         index = 0;
                     }
-                    mImageSwitcher.setImageResource( imagelist[index]);
+                    mImageSwitcher.setImageResource( bannerArray.getResourceId(index, 0));
+
                     Log.d(TAG, "handleMessage: ");
                 }
                 super.handleMessage(msg); }
